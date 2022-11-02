@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/fjjjdaqq/music-babloo",
+    "https://github.com/babloo-musiC/music.",
 )
 BOT_USERNAME = getenv(
     "BOT_USERNAME", "ba_BLOObot"
