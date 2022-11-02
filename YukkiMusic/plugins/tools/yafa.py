@@ -171,7 +171,7 @@ async def ahmad(client: Client, message: Message):
 
 ⌔︙اضف البوت الى قناتك ثم أرسل 👇:
 
-⌔︙قناة أو قناه + أسم الاغنية التي تريدها""",
+⌔︙قناة أو  او شغل قناه + أسم الاغنية التي تريدها""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
@@ -196,7 +196,7 @@ async def ahmad(client: Client, message: Message):
 async def ahmad(client: Client, message: Message):
     await message.reply_photo(
         photo=config.START_IMG_URL,
-        caption=f"""𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚃𝙷𝙴 𝙼𝚄𝚂𝙸𝙲 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙰𝙱𝙻𝙾𝙾 ☂""",
+        caption=f"""[𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚃𝙷𝙴 𝙼𝚄𝚂𝙸𝙲 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙰𝙱𝙻𝙾𝙾 ☂](http://t.me/BA_BLOO)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
