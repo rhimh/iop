@@ -200,13 +200,13 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍", url=f"{SUDO_USER}",
+                InlineKeyboardButton("𝙳𝙴𝚅 𝙱𝙰𝙱𝙻𝙾𝙾", url=f"{SUDO_USER}",
                 ),
-                InlineKeyboardButton(f"╞. 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 .╡", url=f"{YAFA_CHANNEL}",
+                InlineKeyboardButton(f"𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙰𝙱𝙻𝙾𝙾", url=f"{YAFA_CHANNEL}",
                 ),
             ],
             [
-                InlineKeyboardButton("• اضف البوت لمجموعتك ✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                InlineKeyboardButton("• اضف البوت لمجموعتك ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 ),
             #    InlineKeyboardButton("• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true",),
                 ]
