@@ -179,7 +179,7 @@ async def ahmad(client: Client, message: Message):
                 ],[
          #       InlineKeyboardButton(f"• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true"),
                 ],[
-                InlineKeyboardButton("• آضـف آلبوت لمـجمـوعتگ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("➕ آضـف لمـجمـوعتگ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ]
             ]
         ),
@@ -206,7 +206,7 @@ async def ahmad(client: Client, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton("• اضف البوت لمجموعتك ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                InlineKeyboardButton("➕ اضف لمجموعتك ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 ),
             #    InlineKeyboardButton("• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true",),
                 ]
