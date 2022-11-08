@@ -40,7 +40,7 @@ force_btn = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(   
-              text=f"⌯ ˹ 𝙔𝙖𝙛𝙖 ˼", url=f"https://t.me/ssAee",)                        
+              text=f"╞. 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 .╡", url=f"https://t.me/BA_BLOO",)                        
         ],        
     ]
 )
@@ -50,7 +50,7 @@ async def check_is_joined(message):
         status = await app.get_chat_member("ssAee", userid)
         return True
     except Exception:
-        await message.reply_text("- عذراً عليك الأشتࢪاك بقناة البـﯡت أولاً :\n- قناة البوت : @ssAee🫀.",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+        await message.reply_text("- عذراً عليك الأشتࢪاك بقناة البـﯡت أولاً :\n- قناة البوت : @BA_BLOO🫀.",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
         return False
 
 # Command
