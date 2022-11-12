@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001764665180"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "eva")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "EVA")
 
 # Your User ID.
 OWNER_ID = list(
@@ -103,7 +103,7 @@ AUTO_SUGGESTION_TIME = int(
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
