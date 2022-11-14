@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "25980607"))
 API_HASH = getenv("API_HASH", "f9c1a48034bbf12a2a7f669ae90a0541")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5792182635:AAEv0tOCk4Rl_o9EmdpQWtYptqDkTjMqgm0")
+BOT_TOKEN = getenv("BOT_TOKEN", "5792182635:AAHPnLOSo98RbwtmgGdT6izGEssuxxPWOAc")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sourcebb:sourcebb@cluster0.d0oijdq.mongodb.net/annmmbabloo?retryWrites=true&w=majority")
@@ -56,12 +56,12 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/babloo-musiC/babloo-m",
+    "https://github.com/babloo-musiC/vps",
 )
 BOT_USERNAME = getenv(
     "BOT_USERNAME", "ba_BLOObot"
 )  # معرف بوتك بدون @
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AgC8jHGdO-TpVnM1D8ZoXRRFmQxUeWCGtOPqCRfG2K25pdJX0n55Jz4Y2NO_G8jDN6cCABAs1Grkj_58a5liKuPI3TIRzpIv9JuMxylIPxNo_zmwejVO49inv_bgQTLDhK84nG-toypSCyDVTOQdOYm9ATnQERHhAOnP6dUBRRjOVTXAa_qnN65YQPROCsx8h3MqL8rMojj8EIJ1poRK5EVHxitd1Lv6IiAwLTm1zuorVDNoQfSUt7lryeQw2XO4vBj9h-pPxzYuP_ZC790v8NHaaOj0mtQzpUqUk27GBWQq9-GOd9J6BIQLggogqLHjiIyLWQMdGtFg6mu-hyQkRYOnAAAAATSCdWkA")
+STRING1 = getenv("STRING_SESSION", "AgAT6r0Up3vfuRKa_ab2_d_dhxTP6_19IoQnF44zCvdcFmwSKgMw2K27UX-4O163Mzc5cbkHruyCaQOdiI4wfB9PCcV4Dc_ofhsh79SmwkQfj92dTqXzGQ6IZ2LeHgXDWZC2MuTxQ90jebtyWlBxpdUrii7j_Q6yE2BeFsQkue8nnaBwQ6k-mjL1HYbTd5gzEbm0h8TVBiW1A5KECDsOZbJYP99vKTaKjJ-LBNnFN4YSrPa1qtxZZaWQ3FKPH9En0K7b5e2pg4KGJ5l94c6sQGUDkfg0tff2pN4Kz-DcblF3Bw17HYjCwppsVtYV3ZV10-mP7Fr1EO-dKySm6TqEL7l1AAAAATSCdWkA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
