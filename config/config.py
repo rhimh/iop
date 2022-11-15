@@ -24,16 +24,16 @@ API_HASH = getenv("API_HASH", "f9c1a48034bbf12a2a7f669ae90a0541")
 BOT_TOKEN = getenv("BOT_TOKEN", "5792182635:AAHPnLOSo98RbwtmgGdT6izGEssuxxPWOAc")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sourcebb:sourcebb@cluster0.d0oijdq.mongodb.net/annmmbabloo?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sourcebb:sourcebb@cluster0.d0oijdq.mongodb.net/annmmbbabloo?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT","300")
+    getenv("DURATION_LIMIT","600")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "150")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "300")
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
@@ -100,10 +100,10 @@ AUTO_SUGGESTION_TIME = int(
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AgAT6r0Up3vfuRKa_ab2_d_dhxTP6_19IoQnF44zCvdcFmwSKgMw2K27UX-4O163Mzc5cbkHruyCaQOdiI4wfB9PCcV4Dc_ofhsh79SmwkQfj92dTqXzGQ6IZ2LeHgXDWZC2MuTxQ90jebtyWlBxpdUrii7j_Q6yE2BeFsQkue8nnaBwQ6k-mjL1HYbTd5gzEbm0h8TVBiW1A5KECDsOZbJYP99vKTaKjJ-LBNnFN4YSrPa1qtxZZaWQ3FKPH9En0K7b5e2pg4KGJ5l94c6sQGUDkfg0tff2pN4Kz-DcblF3Bw17HYjCwppsVtYV3ZV10-mP7Fr1EO-dKySm6TqEL7l1AAAAATSCdWkA")
+STRING1 = getenv("STRING_SESSION", "AgC-ou-_P4yI-4oDB_9t4XDNYV9w2-D5rFYF2RHBNdlB_TRfg5vCD2jw6CJzvSM9m60JsAe17rc5g9FKOzg1_LUQxD_0NHOyfoKB1OXTPT5pZB_ImYbT5992gBLaY1j08qHmRhyujN623jUOLPq-62RdU50VRsCY4jTcTcewLLUW-8ZMvHe1Y1c300g38kGUxZGt1ri3s9pItuhdRLEypeddmnEjkxJNMcdz9SWmgR6sH7dM89-OLuwuhcaTPxYC3YHliz9MFqqb4XoZX9Bp_iBa7kjXHurk69WLWK9qn3QKfZQjxf58VEKebu3Qb_YDsTyjgt88rERrM5-HICx4JDEQAAAAATSCdWkA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
