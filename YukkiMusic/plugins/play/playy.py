@@ -41,7 +41,7 @@ from YukkiMusic.utils.stream.stream import stream
 PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 @app.on_message(
-    command(["تشغيل","قناه","قناة"])
+    command(["تشغيل","قناه","قناة","/play","شغل"])
     & filters.channel
     & ~filters.edited
     & ~BANNED_USERS
