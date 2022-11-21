@@ -21,10 +21,10 @@ API_ID = int(getenv("API_ID", "25980607"))
 API_HASH = getenv("API_HASH", "f9c1a48034bbf12a2a7f669ae90a0541")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5792182635:AAHPnLOSo98RbwtmgGdT6izGEssuxxPWOAc")
+BOT_TOKEN = getenv("BOT_TOKEN", "5792182635:AAFsv9nWhJuAW7UAYA7Oj2DRWt1ZjxDdR2s")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://source-babloo:bablooxx@cluster0.8xvx12g.mongodb.net/abdobabloonx?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://source-babloo:bablooxx@cluster0.8xvx12g.mongodb.net/abdbabloonx?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AgC-ou-_P4yI-4oDB_9t4XDNYV9w2-D5rFYF2RHBNdlB_TRfg5vCD2jw6CJzvSM9m60JsAe17rc5g9FKOzg1_LUQxD_0NHOyfoKB1OXTPT5pZB_ImYbT5992gBLaY1j08qHmRhyujN623jUOLPq-62RdU50VRsCY4jTcTcewLLUW-8ZMvHe1Y1c300g38kGUxZGt1ri3s9pItuhdRLEypeddmnEjkxJNMcdz9SWmgR6sH7dM89-OLuwuhcaTPxYC3YHliz9MFqqb4XoZX9Bp_iBa7kjXHurk69WLWK9qn3QKfZQjxf58VEKebu3Qb_YDsTyjgt88rERrM5-HICx4JDEQAAAAATSCdWkA")
+STRING1 = getenv("STRING_SESSION", "AgAelWQ0L22t_rFVA_CrT55kUHT5fGICxtzXH-pq5adfK_KMIrz5boiNG9qCORg-V-Ga20AWBgapVU-toVd_kNvPr4NJq0mqZaFvxElaxr0noW7OIDavaiasEQtKty3Q6s2Sf7y6ls74rbLMxSDAwjrVPP8JRuL0M3sbBaSgEfV78S-VSG63ORm7tZDjPIIBaAF05-sDMin76ZWCOWnZjY8wwM5fgqqQtL7e1DxhftWjcixHG5nNLsIHgSI6ezrLcvEihMlYlkZhnOsncIpx8X5dtzfhSm-kERNv_Q7TNYBDP8bcdCte8p3rc7PXd0AdudyAePhOgZ2iV5WJYlLR1HqcAAAAATSCdWkA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/05a767e0672dd5aafa547.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/730db4e73b0550ba94ccf.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
