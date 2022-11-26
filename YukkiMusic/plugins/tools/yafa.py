@@ -121,7 +121,17 @@ async def telegraph(client, message):
         await message.reply(f"**الرابط »**\n`https://telegra.ph{response[0]}`",disable_web_page_preview=True,reply_markup=button_s)
     finally:
         os.remove(download_location)
-    
+
+@app.on_message(command(["الرابط","/link"]) & ~filters.bot & ~filters.private)
+async def invitelink(client, message):
+    chid = message.chat.id
+    try:
+        invitelink = await client.export_chat_invite_link(chid)
+    except:
+        return await message.reply_text("قم برفعي مسؤول في المجموعة أولا ؟")
+    await message.reply_text(f"**تم إنشاء رابط الدعوة بنجاح :**\n {invitelink}")
+Footer
+       
 @app.on_message(command(["قول"])
     & filters.group
     & ~filters.channel
