@@ -175,7 +175,7 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("╞. 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 .╡", url=f"{YAFA_CHANNEL}"),
+                InlineKeyboardButton("╞. 𝙎𝙊𝙐𝙍𝘾𝙀 .╡", url=f"{YAFA_CHANNEL}"),
                 ],[
          #       InlineKeyboardButton(f"• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true"),
                 ],[
@@ -195,12 +195,12 @@ async def ahmad(client: Client, message: Message):
 )
 async def ahmad(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/28d255277ccdc3ba543b0.jpg",
-        caption=f"""[𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 ](https://t.me/BA_BLOO)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/BA_BLOO)\n\n[𝙁𝘼𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/BA_BLOO)\n\n[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 𝙎𝙊𝙐𝙍𝘾𝙀 ](https://t.me/DEV_BABLOO)""",
+        photo=f"https://telegra.ph/file/170e2fcb729ba3f244afa.jpg",
+        caption=f"""[𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙎𝙊𝙐𝙍𝘾𝙀  ](https://t.me/vvvznn)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/vvvznn)\n\n[𝙁𝘼𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/vvvznn)\n\n[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 𝙎𝙊𝙐𝙍𝘾𝙀 ](https://t.me/VvVvVG)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝙳𝙴𝚅 𝙱𝙰𝙱𝙻𝙾𝙾", url=f"{SUDO_USER}",
+                InlineKeyboardButton("Dev Mohammad", url=f"{SUDO_USER}",
                 ),
                 InlineKeyboardButton(f"𝚂𝙾𝚄𝚁𝙲𝙴", url=f"{YAFA_CHANNEL}",
                 ),
