@@ -34,7 +34,7 @@ class YukkiBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "تم يغالي"
+                config.LOG_GROUP_ID, "تم تشغيل البوت بنجاح✅"
             )
         except:
             LOGGER(__name__).error(
