@@ -19,7 +19,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**تم تشغيل اغنية المعلومات سورس بابلو 👇**
+**تم تشغيل اغنية المعلومات ✅**
 
 **اسم الجروب :** {message.chat.title} [`{message.chat.id}`]
 **اسم المشغل :** {message.from_user.mention}
