@@ -33,7 +33,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text= "• الاوامر العربية •",
+                    text= "• الاوامر العربية 🎗",
                     callback_data="help_callback hb8",
                 ),
             ],
@@ -65,7 +65,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [   
                 InlineKeyboardButton(
-                    text= "• ميزات السورس •",
+                    text= "• ميزات السورس 🤸",
                     callback_data="help_callback hb6",
                 ),
                 InlineKeyboardButton(
