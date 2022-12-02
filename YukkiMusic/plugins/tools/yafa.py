@@ -175,7 +175,7 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("╞. 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 .╡", url=f"{YAFA_CHANNEL}"),
+                InlineKeyboardButton("╞. 𝙎𝙊𝙐𝙍𝘾𝙀.╡", url=f"{YAFA_CHANNEL}"),
                 ],[
          #       InlineKeyboardButton(f"• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true"),
                 ],[
@@ -196,19 +196,19 @@ async def ahmad(client: Client, message: Message):
 async def ahmad(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6b7b3924617abe3b47857.jpg",
-        caption=f"""[𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 ](https://t.me/BA_BLOO)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/BA_BLOO)\n\n[𝙁𝘼𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/BA_BLOO)\n\n[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 𝙎𝙊𝙐𝙍𝘾𝙀 ](https://t.me/DEV_BABLOO)""",
+        caption=f"""[𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙎𝙊𝙐𝙍𝘾𝙀  ](https://t.me/UXSHX)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/UXSHX)\n\n[𝙁𝘼𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/UXSHX)\n\n[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 𝙎𝙊𝙐𝙍𝘾𝙀 ](https://t.me/DEV_RESHA)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝙳𝙴𝚅 𝙱𝙾𝚃", url=f"{SUDO_USER}",
+                InlineKeyboardButton("•مطور السورس•", url=f"https://t.me/DEV_RESHA",
                 ),
-                InlineKeyboardButton(f"𝚂𝙾𝚄𝚁𝙲𝙴", url=f"{YAFA_CHANNEL}",
+                InlineKeyboardButton(f"•مالك السورس•", url=f"https://t.me/BCBC0",
                 ),
             ],
             [
-                InlineKeyboardButton("➕ اضف لمجموعتك ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                InlineKeyboardButton("•اضف لمجموعتك✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 ),
-            #    InlineKeyboardButton("• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true",),
+                InlineKeyboardButton("•السورس •", url=f"{YAFA_CHANNEL}",),
                 ]
             ]
         ),
