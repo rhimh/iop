@@ -195,7 +195,7 @@ async def ahmad(client: Client, message: Message):
 )
 async def ahmad(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/6b7b3924617abe3b47857.jpg",
+        photo=f"https://telegra.ph/file/ed480f63f2f063da27ea2.jpg",
         caption=f"""[𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙎𝙊𝙐𝙍𝘾𝙀  ](https://t.me/UXSHX)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/UXSHX)\n\n[𝙁𝘼𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/UXSHX)\n\n[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 𝙎𝙊𝙐𝙍𝘾𝙀 ](https://t.me/DEV_RESHA)""",
         reply_markup=InlineKeyboardMarkup(
         [
