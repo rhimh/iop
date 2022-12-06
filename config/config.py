@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "15628727"))
+API_HASH = getenv("API_HASH", "9d406ec0c8efc0d32793b5f8ac92b5b8")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5636746900:AAGnhHebM4SAJedf0D8w890Eu7eIRcx8zxU")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://BABLOO:BABLOO@cluster0.7sxussk.mongodb.net/kkkkboda?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001796012112"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1495051186").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/babloo-musiC/-",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", ""
+    "BOT_USERNAME", "LAVAXBOT"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,19 +68,19 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "BA_BLOO"
+    "CHANNEL_SUDO", "UXSHX"
 )  # معرف قناتك بدون @
 SUDO_USER = getenv(
-    "SUDO_USER", "https://t.me/DEV_BABLOO"
+    "SUDO_USER", "https://t.me/DEV_RESHA"
 )  # رابط حسابك
 YAFA_NAME = getenv(
-    "YAFA_NAME", "𝙎𝙊𝙐𝙍𝙎𝙀 𝘽𝘼𝘽𝙇𝙊𝙊 𝄮"
+    "YAFA_NAME", "𝑴𝒀 𝑪𝑶𝑹𝑵𝑬𝑹"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/BA_BLOO"
+   " YAFA_CHANNEL", "https://t.me/UXSHX"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/BA_BLOO"
+    "SUPPORT_CHANNEL", "https://t.me/UXSHX"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAAmMVwmtzdEwHmU5Q9-TRQ_dvXI2bNStBcX2fEwrxskeddOaS6dc3gPco5K9bHzTzJGgP85KnKqkeQaoNVQcwBryBg0rwEXCAEH1FuI1kQfgNeJ1seOdHQKIZ1Rit3muwxr19Cqi_BkZkIUMF4qNS5WyV0dxRzIOBYgztEPaulWLzPMcWgDePzPk1bUoBMWJbVylyoxGUKOMl0hqT4-XB-gO90Si7xw_Q4EMqIC0H5QH8ts_hdzCP05KE-6fB4ZXgLApTZD43yyU_WmODpSqLQJ6AgK0_1k206iVC-Os8iJODaUwEycpMFz18Sa8F-xTfysNCUAZyXg-2kqg41zfxsoeFUdTAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6b7b3924617abe3b47857.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/7f53353097178087bb82e.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
