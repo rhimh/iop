@@ -175,7 +175,7 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("╞. 𝙎𝙊𝙐𝙍𝘾𝙀.╡", url=f"{YAFA_CHANNEL}"),
+                InlineKeyboardButton("𝙲𝙷 𝚂𝙾𝚄𝚁𝙲𝙴", url=f"{YAFA_CHANNEL}"),
                 ],[
          #       InlineKeyboardButton(f"• اضف البوت لقناتك ✅", url=f"https://t.me/{BOT_USERNAME}?startchannel=true"),
                 ],[
@@ -185,7 +185,7 @@ async def ahmad(client: Client, message: Message):
         ),
     )
     
-@app.on_message(command(["سورس","مبرمج السورس","مصنع","المصنع","مطور السورس","السورس","المطور","المبرمج"])
+@app.on_message(command(["مطور السورس","السورس","المطور","المبرمج"])
     & filters.group
     & ~filters.edited
 )
@@ -200,15 +200,15 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("•مطور السورس•", url=f"https://t.me/DEV_RESHA",
+                InlineKeyboardButton("𝚁 𝙴 𝚂 𝙷 𝙰", url=f"https://t.me/DEV_RESHA",
                 ),
-                InlineKeyboardButton(f"•مالك السورس•", url=f"https://t.me/BCBC0",
+                InlineKeyboardButton(f"𝙾 𝙲 𝚃 𝙾 𝙱 𝙴 𝚁", url=f"https://t.me/BCBC0",
                 ),
             ],
             [
-                InlineKeyboardButton("•اضف لمجموعتك✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+             #   InlineKeyboardButton("•اضف لمجموعتك✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 ),
-                InlineKeyboardButton("•السورس •", url=f"{YAFA_CHANNEL}",),
+                InlineKeyboardButton("𝙲𝙷 𝚂𝙾𝚄𝚁𝙲𝙴", url=f"{YAFA_CHANNEL}",),
                 ]
             ]
         ),
