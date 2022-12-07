@@ -206,7 +206,7 @@ async def ahmad(client: Client, message: Message):
                 ),
             ],
             [
-             #   InlineKeyboardButton("•اضف لمجموعتك✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                InlineKeyboardButton("•اضف لمجموعتك✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 ),
                 InlineKeyboardButton("𝙲𝙷 𝚂𝙾𝚄𝚁𝙲𝙴", url=f"{YAFA_CHANNEL}",),
                 ]
