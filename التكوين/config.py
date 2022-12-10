@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/hhhhhplm/music",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "LAVAXBOT"
+    "BOT_USERNAME", "UVUXBOT"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
